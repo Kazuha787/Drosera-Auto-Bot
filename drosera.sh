@@ -40,7 +40,7 @@ done
 
 # === 2. Install Dependencies ===
 sudo apt-get update && sudo apt-get upgrade -y
-sudo apt install curl ufw iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli libgbm1 pkg-config libssl-dev libleveldb-dev tar clang bsd>
+sudo apt install curl ufw iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli libgbm1 pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils -y
 
 # === 3. Install Drosera CLI ===
 curl -L https://app.drosera.io/install | bash
